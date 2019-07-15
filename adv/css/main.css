@@ -6,7 +6,7 @@ body {
 	font-family: 'Arial', sans-serif;
 }
 .adv3img {
-	background: url(https://kwork.ru/files/uploaded/f4/2e/38ce4ef7d72f/primer-3.jpg) no-repeat;
+	background: url(../img/primer-3.jpg) no-repeat;
 	height: 230px;
 }
 
@@ -46,8 +46,7 @@ body {
 
 .adv2img {
 	height: 250px;
-	background: url(https://kwork.ru/files/uploaded/0e/56/d36808647630/primer-2.jpg) no-repeat;
-
+	background: url(../img/primer-2.jpg) no-repeat;
 }
 
 .adv2 {
@@ -99,7 +98,7 @@ body {
 }
 
 .adv1img {
-	background: url(https://kwork.ru/files/uploaded/5f/14/385e1b8170a6/primer-1.jpg) no-repeat;
+	background: url(../img/primer-1.jpg) no-repeat;
 	height: 80px;
 
 }
@@ -133,7 +132,7 @@ body {
 }
 
 .adv4img {
-	background: url(https://kwork.ru/files/uploaded/9f/b0/0427ebc22b7c/primer-4.jpg) no-repeat;
+	background: url(../img/primer-4.jpg) no-repeat;
 	height: 350px;
 }
 
