@@ -1,0 +1,168 @@
+.sergrt {
+	opacity: 0.25;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+}
+.adv3img {
+	background: url(https://kwork.ru/files/uploaded/f4/2e/38ce4ef7d72f/primer-3.jpg) no-repeat;
+	height: 230px;
+}
+
+.adv3 {
+	max-width: 640px;
+	min-height: 154px;
+	border: 3px solid #096647;
+	background: url(https://womanadvice.ru/sites/default/files/imagecache/width_250/32/2016-04-28_1322/kak_izmerit_davlenie_mehanicheskim_tonometrom.jpg) 10px 10px no-repeat;
+	background-size: 200px;
+	padding: 5px;
+}
+
+.adv3__wrap {
+	margin-top: 4px;
+	margin-left: 214px;
+}
+
+.adv3__head {
+	color: #cd0c4b;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.adv3__text {
+	font-size: 0.86rem;
+	line-height: 200%;
+	letter-spacing: 0.03rem;
+	margin: 7px 0;
+}
+
+.adv3__link {
+	text-decoration: none;
+	color: #cd0c4b;
+	font-size: 0.86rem;
+	font-weight: bold;
+}
+
+.adv2img {
+	height: 250px;
+	background: url(https://kwork.ru/files/uploaded/0e/56/d36808647630/primer-2.jpg) no-repeat;
+
+}
+
+.adv2 {
+	margin-top: 20px;
+	max-width: 640px;
+	min-height: 154px;
+	/*border: 3px solid #096647;*/
+	background: url(../img/doctor-2.jpg) no-repeat;
+	background-size: 200px;
+	padding: 5px;
+}
+
+.adv2__wrap {
+	margin-top: 4px;
+	margin-left: 214px;s
+}
+
+.adv2__head {
+	color: #000;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.adv2__text {
+	font-size: 0.86rem;
+	line-height: 200%;
+	letter-spacing: 0.03rem;
+	margin: 7px 0;
+}
+
+.adv2__link {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 150px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.86rem;
+	font-weight: bold;
+	background: #3366FF;
+	line-height: 30px;
+	border-radius: 4px;
+}
+
+.adv2__link:hover {
+	transition-duration: .4s;
+	background: #0089b0;
+	opacity: 0.9;
+}
+
+.adv1img {
+	background: url(https://kwork.ru/files/uploaded/5f/14/385e1b8170a6/primer-1.jpg) no-repeat;
+	height: 80px;
+
+}
+
+.adv1 {
+	max-width: 640px;
+}
+
+.adv1__wrap {
+	margin-left: 15px;
+}
+
+.adv1__head {
+	display: inline-block;
+	color: #cd0c4b;
+	font-size: 0.9rem;
+	letter-spacing: 0.03rem;
+}
+
+.adv1__text {
+	display: inline-block;
+	font-size: 0.9rem;
+	letter-spacing: 0.03rem;
+}
+
+.adv1__link {
+	display: inline-block;
+	color: #cd0c4b;
+	font-size: 0.9rem;
+	letter-spacing: 0.03rem;
+}
+
+.adv4img {
+	background: url(https://kwork.ru/files/uploaded/9f/b0/0427ebc22b7c/primer-4.jpg) no-repeat;
+	height: 350px;
+}
+
+.adv4 {
+	max-width: 640px;
+}
+
+.adv4__wrap {
+	margin-left: 5px;
+}
+
+.adv4__head {
+	color: #cd0c4b;
+	font-size: 1.4rem;
+	letter-spacing: 0.03rem;
+}
+
+.adv4__text {
+	margin-top: 10px;
+	display: inline-block;
+	line-height: 200%;
+	letter-spacing: 0.03rem;
+	font-size: 0.8rem;
+	letter-spacing: 0.03rem;
+}
+
+.adv4__link {
+	display: inline-block;
+	color: #cd0c4b;
+	font-size: 0.9rem;
+	letter-spacing: 0.03rem;
+}
