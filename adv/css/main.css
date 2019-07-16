@@ -44,6 +44,20 @@ body {
 	font-weight: bold;
 }
 
+@media screen and (max-width: 560px) {
+	.adv3 {
+		background-position: top 5px center;
+	}
+	.adv3__wrap {
+		margin-top: 160px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.adv3__head {
+		text-align: center;
+	}
+}
+
 .adv2img {
 	height: 250px;
 	background: url(../img/primer-2.jpg) no-repeat;
@@ -96,6 +110,21 @@ body {
 	background: #0089b0;
 	opacity: 0.9;
 }
+
+@media screen and (max-width: 560px) {
+	.adv2 {
+		background-position: top 5px center;
+	}
+	.adv2__wrap {
+		margin-top: 220px;
+		margin-left: 0px;
+		text-align: center;
+	}
+	.adv2__head {
+		text-align: center;
+	}
+}
+
 
 .adv1img {
 	background: url(../img/primer-1.jpg) no-repeat;
