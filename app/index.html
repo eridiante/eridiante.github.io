@@ -54,8 +54,8 @@
                 <li><a class="top_link spec_link">наши акции</a></li>
 				<li><a class="top_link memory2_link">зачем косить траву</a></li>
 				
-                <li><a class="top_link auto_link">доставка</a></li>
-                <li><a class="top_link company_link">о компании</a></li>
+                <li><a class="top_link recall_link">отзывы</a></li>
+                <li><a class="top_link questions_link">вопрос-ответ</a></li>
                 <li><a class="top_link contacts_link">контакты</a></li>
             </ul>
         </div>
@@ -123,7 +123,10 @@
                     НОВЫЙ ИНСТРУМЕНТ<br>
                     МИНИМАЛЬНЫЙ ЗАКАЗ  от 60 рублей
                 </p>
-            </div> 
+            </div>
+            <div class="brand_mobile">
+                <img src="images/brand.png" alt=""/>
+            </div>
             <div class="brand_line">
                 <div class="brand_item wow fadeInUp" data-wow-delay="1.3s">
                     <div class="brand_table">
@@ -174,14 +177,23 @@
             <p class="s12_title">
                 Фотографии наших работ
             </p>
-             <div>
-                  <img src="images/bf1.jpg" alt=""/><img src="images/bf3.jpg" alt=""/>
-                </div>
-                
-				<div>
-                  <img src="images/bf2.jpg" alt=""/><img src="images/bf4.jpg" alt=""/>    
-               </div>  
+            <div class="desktop">
+              <img src="images/bf1.jpg" alt=""/>
+              <img src="images/bf3.jpg" alt=""/>
             </div>
+			<div class="desktop">
+              <img src="images/bf2.jpg" alt=""/>
+              <img src="images/bf4.jpg" alt=""/>    
+            </div>
+            <div class="mobile">
+              <img src="images/bf1_1.jpg" alt=""/>
+              <img src="images/bf3_1.jpg" alt=""/>
+            </div>
+            <div class="mobile">
+              <img src="images/bf2_1.jpg" alt=""/>
+              <img src="images/bf4_1.jpg" alt=""/>    
+            </div>  
+        </div>
     </div>
 	 
 	 
@@ -803,61 +815,67 @@
 	
 	
 	
+
     <div class="screen_13" id="contacts">
-        <div id="map"></div>
+        <div id="map">
+            <iframe src="https://yandex.ru/map-widget/v1/-/CGQBUMLa" width="100%" height="880px" frameborder="1" allowfullscreen="true"></iframe>
+        </div>
         <div class="wrapper">
+
             <div class="contacts_pole">
-                <div class="cp_top">
-                    <p class="cpt_title">Наши контакты</p>
-                    <div class="ctp_text">
-                        <p id="cb_info0" class="cb_info cbi_bg1 cb_content">
-                            г. Минск, ул. Лобанка 79 
-                        </p>
-                        <p id="cb_info1" class="cb_info cbi_bg1 cb_content">
-                            Долгопрудный,
-                            Новое шоссе, 32А
-                        </p>
-                        <p id="cb_info2" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            65-й километр, вл.1
-                        </p>
-                        <p id="cb_info3" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            Волоколамское ш., 97
-                        </p>
-                        <p id="cb_info4" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            ул. Производственная, 11
-                        </p>
-                        <p id="cb_info5" class="cb_info cbi_bg1 cb_content">
-                            Подольск,
-                            Кутузовская улица, 6
-                        </p>
-                        <p id="cb_info6" class="cb_info cbi_bg1 cb_content">
-                            Жуковский,
-                            ул. Дорожная, 5
-                        </p>
-                        <p id="cb_info7" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            ул. Генерала Белобородова, 46с2
-                        </p>
-                        <p id="cb_info8" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            Щелковское ш., 100
-                        </p>
-                        <p id="cb_info9" class="cb_info cbi_bg1 cb_content">
-                            Балашиха,
-                            проспект Ленина, 73
-                        </p>
-                        <p id="cb_info10" class="cb_info cbi_bg1 cb_content">
-                            Москва,
-                            Чермянский пр-д, 5
-                        </p>
-                        <a>info@kosim.by</a>
-                    </div>
-                    <div class="ctp_links">
-                        <a class="lptracker_phone">+375 (29) 999-99-99</a>
-                        <a class="link_1">Заказать звонок</a>
+                <div class="wrap">
+                    <div class="cp_top">
+                        <p class="cpt_title">Наши контакты</p>
+                        <div class="ctp_text">
+                            <p id="cb_info0" class="cb_info cbi_bg1 cb_content">
+                                г. Минск, ул. Лобанка 79 
+                            </p>
+                            <p id="cb_info1" class="cb_info cbi_bg1 cb_content">
+                                Долгопрудный,
+                                Новое шоссе, 32А
+                            </p>
+                            <p id="cb_info2" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                65-й километр, вл.1
+                            </p>
+                            <p id="cb_info3" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                Волоколамское ш., 97
+                            </p>
+                            <p id="cb_info4" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                ул. Производственная, 11
+                            </p>
+                            <p id="cb_info5" class="cb_info cbi_bg1 cb_content">
+                                Подольск,
+                                Кутузовская улица, 6
+                            </p>
+                            <p id="cb_info6" class="cb_info cbi_bg1 cb_content">
+                                Жуковский,
+                                ул. Дорожная, 5
+                            </p>
+                            <p id="cb_info7" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                ул. Генерала Белобородова, 46с2
+                            </p>
+                            <p id="cb_info8" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                Щелковское ш., 100
+                            </p>
+                            <p id="cb_info9" class="cb_info cbi_bg1 cb_content">
+                                Балашиха,
+                                проспект Ленина, 73
+                            </p>
+                            <p id="cb_info10" class="cb_info cbi_bg1 cb_content">
+                                Москва,
+                                Чермянский пр-д, 5
+                            </p>
+                            <a>info@kosim.by</a>
+                        </div>
+                        <div class="ctp_links">
+                            <a class="lptracker_phone">+375 (29) 999-99-99</a>
+                            <a class="link_1">Заказать звонок</a>
+                        </div>
                     </div>
                 </div>
                 <div class="cp_forma">

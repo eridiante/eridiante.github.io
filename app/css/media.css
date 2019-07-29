@@ -242,6 +242,16 @@
     .screen_7 {
         display: none;
     }
+    .brand_line {
+        display: none;
+    }
+    .brand_mobile {
+        display: block;
+        padding: 20px 0;
+    }
+    .brand_mobile img {
+        width: 100%;
+    }
     .screen_8 {
         /*display: none;*/
     }
@@ -318,7 +328,12 @@
 
 
     #map {
-        display: none;
+        /*display: none;*/
+        position: relative;
+        height: 300px;
+    }
+    #map iframe{
+        height: 300px;
     }
     .screen_13 {
         height: auto;
@@ -350,8 +365,8 @@
     }
     .cp_top {
         padding: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .ctp_links a:nth-child(2) {
         font: 18px 'pf_medium';
@@ -446,9 +461,6 @@
         font: 15px 'pf_medium';
         padding: 7px 26px 7px 26px;
         margin-bottom: 15px;
-    }
-    .brand_line {
-        display: none;
     }
     .auto_img img {
         width: 100%;
@@ -833,6 +845,17 @@
     .question_head:hover .question_link {
         margin-left: 50px;
     }
+    .desktop {
+        display: none;
+    }
+    .mobile  {
+        display: block;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .s12_title {
+        font-size: 40px;
+    }
 }
 @media only screen and (max-width: 375px) {
     .price_head p {
@@ -849,9 +872,6 @@
     }
 }
 @media only screen and (max-width: 355px) {
-    .s12_title {
-        font-size: 50px;
-    }
     .recall_block {
         width: 95%;
     }

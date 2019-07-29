@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("input[name=phone]").inputmask({"mask": "+7(999)999-99-99", "clearIncomplete": true});
+	$("input[name=phone]").inputmask({"mask": "999 999-99-99", "clearIncomplete": true});
 	$(".link_1").click(function () {
 		$('#small-modal1').arcticmodal();
 	});
