@@ -1,4 +1,7 @@
 /*********General*********/
+/*
+margin-bottom: 7px;
+*/
 body{
     font: 16px  'PT Sans', sans-serif;
     background: #fff;
@@ -756,10 +759,14 @@ h1 span {
     -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 0.3);
     box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 0.3);
 }
+.spec_info_add {
+    height: 300px;
+}
 .spec_title {
     font: 26px 'pf_bold';
     text-transform: uppercase;
     margin-top: -11px;
+    margin-right: 20px;
 }
 .spec_banner {
     width: 240px;
@@ -798,6 +805,7 @@ h1 span {
 }
 .spec_text {
     margin-top: 6px;
+    margin-right: 20px;
 }
 .s6_left {
     width: 50%;
@@ -1057,7 +1065,7 @@ h1 span {
     color: #000;
     text-transform: uppercase;
     margin-bottom: 22px;
-    padding-top: 50px;
+    padding-top: 0px;
     line-height: 66px;
     text-align: center;
 }
@@ -1298,11 +1306,11 @@ h1 span {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
-    padding-bottom: 210px;
+    padding-bottom: 80px;
     padding-top: 40px;
-    min-height: 1100px;
+    /*min-height: 1100px;*/
 }
-.screen_11:before {
+/*.screen_11:before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -1311,7 +1319,7 @@ h1 span {
     border-style: solid;
     border-width: 0 0 180px 1920px;
     border-color: transparent transparent #fff transparent;
-}
+}*/
 .s11_title {
     font: 48px 'pf_bold';
     color: #000;

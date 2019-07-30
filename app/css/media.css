@@ -16,7 +16,7 @@
         min-height: 270px;
     }
     .recall_img:after {
-        display: none;
+        /*display: none;*/
     }
     .recall_info {
         padding-left: 20px;
@@ -315,7 +315,7 @@
     }
     .recall_img {
         float: none;
-        margin: 0 auto;
+        margin: 0 10%;
     }
     .recall_info {
         width: 100%;
@@ -426,6 +426,8 @@
         float: none;
         margin-right: 40px;
         display: block;
+        margin-bottom: 7px;
+        font-size: 20px;
     }
     .mobmenu ul li a{
         color: #fff;
@@ -639,6 +641,9 @@
     .auto_banner span {
         display: none;
     }
+    .screen_8 {
+        margin-top: -120px;
+    }
     .screen_13 {
         padding-bottom: 30px;
     }
@@ -815,7 +820,7 @@
     }
     .recall_img {
         float: none;
-        margin: 0 auto;
+        margin: 0 10%;
     }
     .recall_info {
         width: 100%;
@@ -850,6 +855,21 @@
     }
     .mobile  {
         display: block;
+    }
+
+    .screen_8 {
+        padding-bottom: 50px;
+    }
+    .screen_12 {
+        padding-top: 0px;
+    }
+    .spec_info_add {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .recall_block {
+        width: 90%;
     }
 }
 @media only screen and (max-width: 410px) {
